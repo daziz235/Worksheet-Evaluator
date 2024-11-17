@@ -119,7 +119,7 @@ def evaluate_responses_stream(questions_text, responses_text):
                     After evaluating all the questions, please provide a final note on the areas where the student should focus for improvement:
 
                     **Overall Focus Areas:** [List the specific topics or concepts the student should focus on to improve, based on their answers across all questions.]
-                    **[Overall]**: [<very accurate number of correct answers> out of <total number of questions accurately> are correct.]
+                    **[Overall]**: [<very accurate number of correct answers> out of <total number of questions accurately> are correct and <number of partially correct> are partially correct.]
 
                     Please be clear, concise, and objective in your feedback.
                 """,
