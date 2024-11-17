@@ -127,7 +127,7 @@ def evaluate_responses_stream(questions_text, responses_text):
         ],
         temperature=0.5,
         top_p=1,
-        max_tokens=2048,
+        max_tokens=4096,
         stream=True,
     )
     return completion
