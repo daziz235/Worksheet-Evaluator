@@ -1,3 +1,7 @@
 streamlit
 pandas
 Requests
+openai
+pytesseract
+pdf2image
+poppler-utils

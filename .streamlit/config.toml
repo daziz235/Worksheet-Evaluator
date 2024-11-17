@@ -1,15 +1,39 @@
+# Theme Configuration
 [theme]
-# Primary accent color for interactive elements.
-primaryColor= "#d33682"
+# Background color for the main content area (muted dark gray for a professional feel).
+backgroundColor = "#1A1A1A"  # A dark charcoal background for a modern, professional look.
 
-#background color for the main content area.
-backgroundColor = "#002b36"
+# Background color used for the sidebar and most interactive widgets (slightly lighter gray for contrast).
+secondaryBackgroundColor = "#2A2A2A"  # Darker but subtle contrast for the sidebar.
 
-# Background color used for the sidebar and most interactive widget
-secondaryBackgroundColor = "#586e75"
+# Text color (soft, high-contrast white for readability against dark backgrounds).
+textColor = "#F5F5F5"  # Clean, light gray for easy reading without being too bright.
 
-# Color used for almost all text.
-textColor = "#fff"
+# Primary color for interactive elements like buttons, links, sliders (elegant, modern blue).
+primaryColor = "#4A90E2"  # Elegant blue, modern yet professional for action buttons and highlights.
 
+# Accent color for borders, emphasis, or highlighting important sections (muted gold for a refined touch).
+secondaryColor = "#FFD700"  # Gold for a sophisticated, polished look in highlighting important elements.
+
+# Hover and Focus effects (slightly lighter blue for smooth transitions on hover).
+hoverColor = "#6BA9FF"  # Light blue for hover effect on buttons, ensuring smooth transitions.
+
+# Font settings to ensure clean, professional typography.
+font = "Roboto"  # A clean, professional sans-serif font widely used in UI design.
+
+# Subtle shadow for buttons to give them a 3D effect.
+[theme.custom]
+buttonShadow = "0px 4px 8px rgba(0, 0, 0, 0.2)"  # Adds a subtle shadow to buttons for depth.
+
+# Scrollbar style (matching dark theme aesthetics for a more cohesive look).
+scrollbarColor = "#4A4A4A"  # Darker scrollbar for seamless integration into the design.
+scrollbarWidth = "8px"  # A more minimal, refined scrollbar style.
+
+# Page Title and Favicon (customize as needed for professional branding).
+[global]
+pageTitle = "Worksheet Evaluation Bot"
+favicon = "📘"  # Use your app’s branded icon or leave as is.
+
+# Toolbar Settings (Minimal toolbar for a clean interface).
 [client]
 toolbarMode = "minimal"
