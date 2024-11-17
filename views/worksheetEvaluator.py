@@ -111,9 +111,9 @@ def evaluate_responses_stream(questions_text, responses_text):
 
                     Please evaluate each question individually and provide your feedback in the following format always:
 
-                    **[Question Number] Question:** [The original question]
-                    **Student Answer:** [The student answer]
-                    **Evaluation:** [Correct/Incorrect/Partially Correct]
+                    **[Question Number] Question:** [The original question] \n
+                    **Student Answer:** [The student answer] \n
+                    **Evaluation:** [Correct/Incorrect/Partially Correct] \n
                     **Feedback:** [Detailed explanation of why the answer is correct/incorrect, including specific points about the student's reasoning, potential errors, and suggestions for improvement in case of incomplete or partially correct answers to improve the student's understanding]
 
                     After evaluating all the questions, please provide a final note on the areas where the student should focus for improvement:
