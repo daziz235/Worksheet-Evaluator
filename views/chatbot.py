@@ -31,7 +31,7 @@ for message in st.session_state.messages:
 # Accept user input
 if prompt := st.chat_input("What is up?"):
     # Add user message to chat history
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content":f""" You are created by Danish Aziz. He is a IIT Bombay Graduate having imterest in Data Science and AI Engineering. {prompt})
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
